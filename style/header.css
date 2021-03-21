@@ -1,0 +1,33 @@
+:root {
+    --light-gray: #AAA;
+    --white: #FFF; 
+    --red: #E50914;
+
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--red);
+    font-family: 'Arial Black', sans-serif;
+    font-size: 40px;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+header nav a {
+    color: var(--light-gray);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+
+header nav a:hover {
+    color: var(--white);   
+}
